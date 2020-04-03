@@ -3,14 +3,15 @@
   - Download
   - Create a new project
   - Settings
-
+---
 
 
 # Android Studio
 
+## Download
 Download [Android Studio](https://developer.android.com/studio/).
 
-Extract .tar.gz file (my `.tar.gz` downloaded on `~/Desktop$`)
+Extract .tar.gz file (my `.tar.gz` downloaded on `Desktop`)
 
 ```
 ~$ cd ~/Desktop
@@ -24,7 +25,11 @@ Open extracted folder and open a terminal in here
 ~bin$ ./studio.sh
 ```
 
-Android Studio must be opened.
+**Android Studio must be opened.**
+
+
+
+---
 
 
 # baslik-3 
