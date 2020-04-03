@@ -95,7 +95,7 @@ Verify : `lein -version`
 Output =>
 Leiningen 2.9.0 on Java 1.8.0_242 OpenJDK 64-Bit Server VM
 ```
-## [nvm (for installing npm)](https://github.com/nvm-sh/nvm)
+## [nvm (for installing nodejs.v8.xx)](https://github.com/nvm-sh/nvm)
 If you use:
 ```
 sudo apt install nodejs
@@ -135,7 +135,7 @@ Verify : `npm --version` => 6.13.4
 
 ## [Android Studio](https://developer.android.com/studio/)
 
-Extract .tar.gz file (my `.tar.gz` downloaded on `Desktop`)
+Extract `.tar.gz` file (my `.tar.gz` downloaded on `Desktop`)
 
 ```
 ~$ cd ~/Desktop
@@ -152,12 +152,26 @@ Open extracted folder and open a terminal in here
 **Android Studio must be opened.**
 
 
+[Increase the watches limit](https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit)
+fs.inotify.max_user_watches = 524288
+sudo sysctl -p --system
+restart Android Studio
+---
+npm install -g react-native-cli
+npm install -g re-natal
+re-natal init myReactNativeApp
+cd my-react-native-app
+cd my-react-native-app; yarn
+re-natal use-android-device avd
+re-natal use-figwheel
+lein figwheel android
+react-native run-android
 
 ---
-
 #### Sources :
 - [http://anish-patil.blogspot.com/2019/02/how-to-create-react-native-project-with.html](http://anish-patil.blogspot.com/2019/02/how-to-create-react-native-project-with.html)
 - [https://linuxize.com/post/install-java-on-debian-10/](https://linuxize.com/post/install-java-on-debian-10/)
 - [https://github.com/nodejs/help/issues/1877](https://github.com/nodejs/help/issues/1877)
--
-
+- [https://github.com/bhauman/lein-figwheel](https://github.com/bhauman/lein-figwheel)
+- [https://cljsrn.org/](https://cljsrn.org/)
+- [https://github.com/drapanjanas/re-natal](https://github.com/drapanjanas/re-natal)
