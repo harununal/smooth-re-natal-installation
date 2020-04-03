@@ -3,9 +3,10 @@ Date : March 2020
 OS : Debian 10
 ```
 ---
-
+## Dependencies:
 - [Java 8](#java-8)
-# Depencendies 
+- [a](#a)
+
 
 ## [Java 8](https://linuxize.com/post/install-java-on-debian-10/)
 
