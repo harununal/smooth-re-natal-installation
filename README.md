@@ -7,6 +7,7 @@ OS : Debian 10
 - [Java 8](#java-8)
 - [Leiningen](#leiningen)
 
+---
 
 ## [Java 8](https://linuxize.com/post/install-java-on-debian-10/)
 
