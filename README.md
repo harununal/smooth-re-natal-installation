@@ -5,7 +5,39 @@ OS : Debian 10
 ---
 ## Depencendies 
 
-- [Java 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) 
+- [Java 8](https://linuxize.com/post/install-java-on-debian-10/)
+```
+sudo apt update
+sudo apt install apt-transport-https ca-certificates wget dirmngr gnupg software-properties-common
+```
+```
+wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -
+```
+```
+sudo add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/
+```
+```
+sudo apt update
+sudo apt install adoptopenjdk-8-hotspot
+```
+```
+java -version
+```
+```
+OUTPUT =>
+openjdk version "1.8.0_212"
+OpenJDK Runtime Environment (AdoptOpenJDK)(build 1.8.0_212-b04)
+OpenJDK 64-Bit Server VM (AdoptOpenJDK)(build 25.212-b04, mixed mode)
+```
+```
+sudo emacs
+```
+You can use `nano home/<username>/.bashrc`
+
+In emacs : `C-x C-f` `home/<username>/.bashrc`
+
+
+
 
 (If you use :
 ` sudo apt-get install jdk-default`, you get `jdk11`, but I had some problems on Java11. `java.lang.module.FindException: Module java.xml.bind not found
@@ -14,18 +46,7 @@ OS : Debian 10
 
 
 
-- [Android Studio](#android-studio)
-
-  - Download
-  - Create a new project
-  - Settings
----
-
-
-# Android Studio
-
-## Download
-Download [Android Studio](https://developer.android.com/studio/).
+- [Android Studio](https://developer.android.com/studio/).
 
 Extract .tar.gz file (my `.tar.gz` downloaded on `Desktop`)
 
