@@ -10,9 +10,18 @@ OS : Debian 10
 
 ## [Java 8](https://linuxize.com/post/install-java-on-debian-10/)
 
-(If you use :
-` sudo apt-get install jdk-default`, you get `jdk11`, but I had some problems on Java11. `java.lang.module.FindException: Module java.xml.bind not found
-` etc.)
+If you use :
+` sudo apt-get install jdk-default`
+
+you get `jdk11`
+
+but I had some problems on Java11 
+```
+For example =>
+java.lang.module.FindException: Module java.xml.bind not found
+```
+
+**Install jdk8 :**
 
 ```
 sudo apt update
