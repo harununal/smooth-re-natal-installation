@@ -3,9 +3,16 @@ Date : March 2020
 OS : Debian 10
 ```
 ---
-## Depencendies 
 
-- [Java 8](https://linuxize.com/post/install-java-on-debian-10/)
+- [Java 8](#java-8)
+# Depencendies 
+
+## [Java 8](https://linuxize.com/post/install-java-on-debian-10/)
+
+(If you use :
+` sudo apt-get install jdk-default`, you get `jdk11`, but I had some problems on Java11. `java.lang.module.FindException: Module java.xml.bind not found
+` etc.)
+
 ```
 sudo apt update
 sudo apt install apt-transport-https ca-certificates wget dirmngr gnupg software-properties-common
@@ -28,7 +35,7 @@ OUTPUT =>
 openjdk version "1.8.0_212"
 OpenJDK Runtime Environment (AdoptOpenJDK)(build 1.8.0_212-b04)
 OpenJDK 64-Bit Server VM (AdoptOpenJDK)(build 25.212-b04, mixed mode)
-```
+``` 
 
 `sudo emacs` or you can use `nano home/<username>/.bashrc`
 
@@ -37,15 +44,15 @@ In emacs : `C-x C-f` `home/<username>/.bashrc`
 Add to end of file :
 ```JAVA_HOME="/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64"```
 
+In emacs : `C-x C-s`
+
 Verify : `echo $JAVA_HOME`
 ```
 Output =>
 /usr/lib/jvm/adoptopenjdk-8-hotspot-amd64
 ```
 
-(If you use :
-` sudo apt-get install jdk-default`, you get `jdk11`, but I had some problems on Java11. `java.lang.module.FindException: Module java.xml.bind not found
-` etc.)
+
 - [Leiningen](https://leiningen.org/)
 
 
