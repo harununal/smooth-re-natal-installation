@@ -5,7 +5,7 @@ OS : Debian 10
 ---
 ## Dependencies:
 - [Java 8](#java-8)
-- [a](#a)
+- [Leiningen](#leiningen)
 
 
 ## [Java 8](https://linuxize.com/post/install-java-on-debian-10/)
@@ -53,8 +53,36 @@ Output =>
 /usr/lib/jvm/adoptopenjdk-8-hotspot-amd64
 ```
 
+## [Leiningen](https://leiningen.org/)
+```
+sudo apt-get install -y leiningen
+```
+```
+sudo update-alternatives --config java
+```
+```
+Output =>
+There are 2 choices for the alternative java (providing /usr/bin/java).
 
-- [Leiningen](https://leiningen.org/)
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-11-openjdk-amd64/bin/java          1111      auto mode
+  1            /usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/bin/java   1081      manual mode
+  2            /usr/lib/jvm/java-11-openjdk-amd64/bin/java          1111      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number:
+```
+Press `1` `Enter`
+```
+Output =>
+update-alternatives: using /usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/bin/java to provide /usr/bin/java (java) in manual mode
+```
+Verify : `lein -version`
+```
+Output =>
+Leiningen 2.9.0 on Java 1.8.0_242 OpenJDK 64-Bit Server VM
+```
+
 
 
 
