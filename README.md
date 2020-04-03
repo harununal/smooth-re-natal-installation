@@ -150,7 +150,7 @@ Open extracted folder and open a terminal in here
 ~bin$ ./studio.sh
 ```
 
-**Android Studio must be opened.**
+**Android Studio must be opened now.**
 
 [Set SDK](https://medium.com/@loons.create/2-react-native-tutorial-android-studio-android-sdk-6a630b7ed517)
 
