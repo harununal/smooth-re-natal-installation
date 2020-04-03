@@ -8,7 +8,7 @@ Extract .tar.gz file (my .tar.gz file downloaded on `~/Desktop$`)
 
 `~/Desktop$ tar xvzf  android-studio-ide-xxx-linux.tar.gz`
 
-Open extracted folder and open terminal in here
+Open extracted folder and open a terminal in here
 
 `~$ cd bin`
 
@@ -16,3 +16,6 @@ Open extracted folder and open terminal in here
 
 Android Studio must be opened.
 
+
+# baslik3
+[baslik3](#baslik3)
