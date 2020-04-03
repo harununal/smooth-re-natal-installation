@@ -2,7 +2,7 @@
 
 Download [Android Studio](https://developer.android.com/studio/)
 
-Extract .tar.gz file (my .tar.gz file installed on `~/Desktop$`)
+Extract .tar.gz file (my .tar.gz file downloaded on `~/Desktop$`)
 
 `$ cd ~/Desktop`
 
@@ -13,3 +13,6 @@ Open extracted folder and open terminal in here
 `~$ cd bin`
 
 `bin$ ./studio.sh`
+
+Android Studio must be opened.
+
