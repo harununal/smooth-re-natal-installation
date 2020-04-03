@@ -7,6 +7,8 @@ OS : Debian 10
 - [Java 8](#java-8)
 - [Leiningen](#leiningen)
 - [Android Studio](#android-studio)
+- [nvm](#nvm)
+
 
 ---
 
@@ -93,6 +95,43 @@ Verify : `lein -version`
 Output =>
 Leiningen 2.9.0 on Java 1.8.0_242 OpenJDK 64-Bit Server VM
 ```
+## [nvm (for installing npm)](https://github.com/nvm-sh/nvm)
+If you use:
+```
+sudo apt install nodejs
+```
+you get `nodejs v10.xx`
+
+
+but I had some problems on v10 like that in [this page](https://github.com/nodejs/help/issues/1877):
+```
+1 warn npm npm does not support Node.js v10.15.2
+2 warn npm You should probably upgrade to a newer version of node as we
+3 warn npm can't make any promises that npm will work with this version.
+4 warn npm Supported releases of Node.js are the latest release of 4, 6, 7, 8, 9.
+```
+**Install nvm**
+```
+sudo apt-get install curl
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+```
+```
+nvm ls
+```
+```
+Output =>
+lts/argon -> v4.9.1 (-> N/A)
+lts/boron -> v6.17.1 (-> N/A)
+lts/carbon -> v8.17.0
+lts/dubnium -> v10.19.0 (-> N/A)
+lts/erbium -> v12.16.1 (-> N/A)
+```
+```
+nvm install v8.17.0
+nvm use v8.17.0 
+```
+Verify : `npm --version` => 6.13.4
+`node --version` => v8.17.0
 
 ## [Android Studio](https://developer.android.com/studio/)
 
@@ -118,7 +157,7 @@ Open extracted folder and open a terminal in here
 
 #### Sources :
 - [http://anish-patil.blogspot.com/2019/02/how-to-create-react-native-project-with.html](http://anish-patil.blogspot.com/2019/02/how-to-create-react-native-project-with.html)
--[https://linuxize.com/post/install-java-on-debian-10/](https://linuxize.com/post/install-java-on-debian-10/)
--
+- [https://linuxize.com/post/install-java-on-debian-10/](https://linuxize.com/post/install-java-on-debian-10/)
+- [https://github.com/nodejs/help/issues/1877](https://github.com/nodejs/help/issues/1877)
 -
 
