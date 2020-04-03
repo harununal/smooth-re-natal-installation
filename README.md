@@ -6,6 +6,7 @@ OS : Debian 10
 ## Dependencies:
 - [Java 8](#java-8)
 - [Leiningen](#leiningen)
+- [Android Studio](#android-studio)
 
 ---
 
@@ -93,10 +94,7 @@ Output =>
 Leiningen 2.9.0 on Java 1.8.0_242 OpenJDK 64-Bit Server VM
 ```
 
-
-
-
-- [Android Studio](https://developer.android.com/studio/).
+## [Android Studio](https://developer.android.com/studio/)
 
 Extract .tar.gz file (my `.tar.gz` downloaded on `Desktop`)
 
@@ -118,9 +116,9 @@ Open extracted folder and open a terminal in here
 
 ---
 
+#### Sources :
+- [http://anish-patil.blogspot.com/2019/02/how-to-create-react-native-project-with.html](http://anish-patil.blogspot.com/2019/02/how-to-create-react-native-project-with.html)
+-[https://linuxize.com/post/install-java-on-debian-10/](https://linuxize.com/post/install-java-on-debian-10/)
+-
+-
 
-# baslik-3 
-[baslik3](#baslik-3)
-
-See [here](#running-on-linux) for more details.
-## Running on Linux
