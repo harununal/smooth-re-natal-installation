@@ -1,15 +1,16 @@
-* [Android Studio] (#Android Studio)
-  * Download
-  * Create a new project
-  * Settings
+- [Android Studio](#android-studio)
+
+  - Download
+  - Create a new project
+  - Settings
 
 
 
 # Android Studio
 
-Download [Android Studio](https://developer.android.com/studio/)
+Download [Android Studio](https://developer.android.com/studio/).
 
-Extract .tar.gz file (my .tar.gz file downloaded on `~/Desktop$`)
+Extract .tar.gz file (my `.tar.gz` downloaded on `~/Desktop$`)
 
 ```
 ~$ cd ~/Desktop
@@ -28,3 +29,6 @@ Android Studio must be opened.
 
 # baslik-3 
 [baslik3](#baslik-3)
+
+See [here](#running-on-linux) for more details.
+## Running on Linux
