@@ -6,8 +6,9 @@ OS : Debian 10
 ## Dependencies:
 - [Java 8](#java-8)
 - [Leiningen](#leiningen)
-- [Android Studio](#android-studio)
 - [nvm](#nvm)
+- [Android Studio](#android-studio)
+
 
 
 ---
@@ -150,8 +151,10 @@ Open extracted folder and open a terminal in here
 ```
 
 **Android Studio must be opened.**
+
 [Set SDK](https://medium.com/@loons.create/2-react-native-tutorial-android-studio-android-sdk-6a630b7ed517)
-On **Start a new Android project** page :
+
+On `Start a new Android project` page :
 `Configure` > `SDK Manager` > `Android SDK`
 
 `SDK Platforms` > Select SDK that you want
@@ -166,6 +169,7 @@ Check the box : `Show Package Details`
 **Extra Settings :**
 
 [Increase the watches limit](https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit)
+
 fs.inotify.max_user_watches = 524288
 sudo sysctl -p --system
 restart Android Studio
@@ -188,3 +192,5 @@ react-native run-android
 - [https://github.com/bhauman/lein-figwheel](https://github.com/bhauman/lein-figwheel)
 - [https://cljsrn.org/](https://cljsrn.org/)
 - [https://github.com/drapanjanas/re-natal](https://github.com/drapanjanas/re-natal)
+- [https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit](https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit)
+- [https://medium.com/@loons.create/2-react-native-tutorial-android-studio-android-sdk-6a630b7ed517](https://medium.com/@loons.create/2-react-native-tutorial-android-studio-android-sdk-6a630b7ed517)
