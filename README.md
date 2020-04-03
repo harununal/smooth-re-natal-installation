@@ -150,7 +150,20 @@ Open extracted folder and open a terminal in here
 ```
 
 **Android Studio must be opened.**
+[Set SDK](https://medium.com/@loons.create/2-react-native-tutorial-android-studio-android-sdk-6a630b7ed517)
+On **Start a new Android project** page :
+`Configure` > `SDK Manager` > `Android SDK`
 
+`SDK Platforms` > Select SDK that you want
+
+Check the box : `Show Package Details`
+- Android SDK Platform XXX
+- Intel x86 Atom_64 System Image
+- Google APIs Intel x86 Atom System Image
+
+
+
+**Extra Settings :**
 
 [Increase the watches limit](https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit)
 fs.inotify.max_user_watches = 524288
