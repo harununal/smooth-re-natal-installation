@@ -1,3 +1,19 @@
+```
+Date : March 2020
+OS : Debian 10
+```
+---
+## Depencendies 
+
+- [Java 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) 
+
+(If you use :
+` sudo apt-get install jdk-default`, you get `jdk11`, but I had some problems on Java11. `java.lang.module.FindException: Module java.xml.bind not found
+` etc.)
+- [Leiningen](https://leiningen.org/)
+
+
+
 - [Android Studio](#android-studio)
 
   - Download
