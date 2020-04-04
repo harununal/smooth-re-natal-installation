@@ -280,3 +280,9 @@ Change your project with an editor :
 - [https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit](https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit)
 - [https://medium.com/@loons.create/2-react-native-tutorial-android-studio-android-sdk-6a630b7ed517](https://medium.com/@loons.create/2-react-native-tutorial-android-studio-android-sdk-6a630b7ed517)
 - [https://stackoverflow.com/questions/58495573/module-java-xml-bind-not-found](https://stackoverflow.com/questions/58495573/module-java-xml-bind-not-found)
+
+---
+
+- [https://github.com/drapanjanas/re-natal](https://github.com/drapanjanas/re-natal)
+- [https://docs.brew.sh/Homebrew-on-Linux](https://docs.brew.sh/Homebrew-on-Linux)
+- [https://facebook.github.io/watchman/docs/install](https://facebook.github.io/watchman/docs/install)
