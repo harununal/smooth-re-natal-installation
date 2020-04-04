@@ -53,7 +53,9 @@ OpenJDK 64-Bit Server VM (AdoptOpenJDK)(build 25.212-b04, mixed mode)
 ``` 
 *If you have emacs :*
 
-`sudo emacs` or you can use `nano home/<username>/.bashrc`
+`sudo emacs` 
+
+(or you can use `nano home/<username>/.bashrc`)
 
 In emacs : `C-x C-f` (find file) `home/<username>/.bashrc`
 
@@ -140,7 +142,7 @@ nvm use v8.17.0
 Verify : `npm --version` => 6.13.4
 `node --version` => v8.17.0
 
-- ## Android Studio
+## [Android Studio](https://developer.android.com/studio/)
 
 Download [Android Studio](https://developer.android.com/studio/)
 
@@ -168,16 +170,19 @@ On `Start a new Android project` page :
 `SDK Platforms` > Select SDK that you want
 
 Check the box : `Show Package Details`
+
+and check this three box
+```
 - Android SDK Platform XXX
 - Intel x86 Atom_64 System Image
 - Google APIs Intel x86 Atom System Image
-
+```
 (Open an existing Android Studio project)
 Avd Manager
 Create Virtual Drive
 Nexus5
 
-**Extra Settings :**
+**Extra Settings for Android Studio :**
 
 [Increase the watches limit](https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit)
 
@@ -190,15 +195,26 @@ npm install -g re-natal
 re-natal init myReactNativeApp
 cd my-react-native-app
 cd my-react-native-app; yarn
+
+Open first terminal in project folder
+```
 re-natal use-android-device avd
 re-natal use-figwheel
 lein figwheel android
+```
+Open second terminal in project folder
+```
 react-native run-android
-
 ---
-Open project with an editor :
+
+You must have 'Hello Clojure in IOS and Android' screen in emulator.
+
+Change your project with an editor :
 - Emacs/cider
 - Visual Studio Code/calva
+- etc.
+
+**Enjoy with Clojurescript !**
 
 ---
 #### Sources :
