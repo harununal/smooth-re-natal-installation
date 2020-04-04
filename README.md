@@ -70,6 +70,7 @@ Verify : `echo $JAVA_HOME`
 Output =>
 /usr/lib/jvm/adoptopenjdk-8-hotspot-amd64
 ```
+---
 
 ## [Leiningen](https://leiningen.org/)
 ```
@@ -102,6 +103,8 @@ Verify : `lein -version`
 Output =>
 Leiningen 2.9.0 on Java 1.8.0_242 OpenJDK 64-Bit Server VM
 ```
+---
+
 ## [nvm](https://github.com/nvm-sh/nvm)
 
 (for installing nodejs.v8.xx)
@@ -120,6 +123,8 @@ but I had some problems on v10 like that in [this page](https://github.com/nodej
 3 warn npm can't make any promises that npm will work with this version.
 4 warn npm Supported releases of Node.js are the latest release of 4, 6, 7, 8, 9.
 ```
+---
+
 **Install nvm [*](https://github.com/nvm-sh/nvm)**
 ```
 sudo apt-get install curl
@@ -152,6 +157,8 @@ re-natal init <aCamelCaseNamedProject>
 ```
 cd a-camel-case-named-project; yarn
 ```
+---
+
 ## [Android Studio](https://developer.android.com/studio/)
 
 Download [Android Studio](https://developer.android.com/studio/)
@@ -187,20 +194,14 @@ and check this three box
 - Intel x86 Atom_64 System Image
 - Google APIs Intel x86 Atom System Image
 ```
-'Apply'
+`Apply`
 
-'Open an existing Android Studio project'
+`Open an existing Android Studio project` => Your project file : `a-camel-case-named-project`
 
-Show your project file : 'a-camel-case-named-project'
+`Avd Manager` (a symbol on right-top, like phone screen)
 
-'Avd Manager' (a symbol on right-top, like phone screen)
-
-'Create Virtual Drive'
-
-'Nexus5' or anything
-
-'Double-click'
-
+`Create Virtual Drive` => `Nexus5` or anything => `Double-click`
+---
 **Extra Settings for Android Studio :**
 
 [Increase the watches limit](https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit)
