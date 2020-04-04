@@ -20,7 +20,7 @@ If you use :
 
 you get `jdk11`
 
-but I had some problems on Java11 
+but I had [some problems](https://stackoverflow.com/questions/58495573/module-java-xml-bind-not-found) on Java11 
 ```
 For example =>
 java.lang.module.FindException: Module java.xml.bind not found
@@ -194,3 +194,4 @@ react-native run-android
 - [https://github.com/drapanjanas/re-natal](https://github.com/drapanjanas/re-natal)
 - [https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit](https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit)
 - [https://medium.com/@loons.create/2-react-native-tutorial-android-studio-android-sdk-6a630b7ed517](https://medium.com/@loons.create/2-react-native-tutorial-android-studio-android-sdk-6a630b7ed517)
+- [https://stackoverflow.com/questions/58495573/module-java-xml-bind-not-found](https://stackoverflow.com/questions/58495573/module-java-xml-bind-not-found)
