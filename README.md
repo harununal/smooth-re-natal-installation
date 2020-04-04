@@ -7,6 +7,7 @@ OS : Debian 10
 - [Java 8](#java-8)
 - [Leiningen](#leiningen)
 - [nvm](#nvm)
+- [re-natal](#re-natal-and-react-native)
 - [Android Studio](#android-studio)
 
 
@@ -142,6 +143,15 @@ nvm use v8.17.0
 Verify : `npm --version` => 6.13.4
 `node --version` => v8.17.0
 
+## [re-natal and react-native](http://anish-patil.blogspot.com/2019/02/how-to-create-react-native-project-with.html)
+```
+npm install -g react-native-cli
+npm install -g re-natal
+re-natal init <aCamelCaseNamedProject>
+```
+```
+cd a-camel-case-named-project; yarn
+```
 ## [Android Studio](https://developer.android.com/studio/)
 
 Download [Android Studio](https://developer.android.com/studio/)
@@ -177,10 +187,19 @@ and check this three box
 - Intel x86 Atom_64 System Image
 - Google APIs Intel x86 Atom System Image
 ```
-(Open an existing Android Studio project)
-Avd Manager
-Create Virtual Drive
-Nexus5
+'Apply'
+
+'Open an existing Android Studio project'
+
+Show your project file : 'a-camel-case-named-project'
+
+'Avd Manager' (a symbol on right-top, like phone screen)
+
+'Create Virtual Drive'
+
+'Nexus5' or anything
+
+'Double-click'
 
 **Extra Settings for Android Studio :**
 
@@ -190,11 +209,7 @@ fs.inotify.max_user_watches = 524288
 sudo sysctl -p --system
 restart Android Studio
 ---
-npm install -g react-native-cli
-npm install -g re-natal
-re-natal init myReactNativeApp
-cd my-react-native-app
-cd my-react-native-app; yarn
+
 
 Open first terminal in project folder
 ```
