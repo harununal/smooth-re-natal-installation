@@ -26,7 +26,7 @@ For example =>
 java.lang.module.FindException: Module java.xml.bind not found
 ```
 
-**Install jdk8 :**
+  **Install jdk8 [*](https://linuxize.com/post/install-java-on-debian-10/) :**
 
 ```
 sudo apt update
@@ -72,6 +72,8 @@ Output =>
 ```
 sudo apt-get install -y leiningen
 ```
+Check java version. Leiningen brings java11 :
+
 ```
 sudo update-alternatives --config java
 ```
@@ -97,7 +99,10 @@ Verify : `lein -version`
 Output =>
 Leiningen 2.9.0 on Java 1.8.0_242 OpenJDK 64-Bit Server VM
 ```
-## [nvm (for installing nodejs.v8.xx)](https://github.com/nvm-sh/nvm)
+## [nvm](https://github.com/nvm-sh/nvm)
+
+(for installing nodejs.v8.xx)
+
 If you use:
 ```
 sudo apt install nodejs
@@ -112,7 +117,7 @@ but I had some problems on v10 like that in [this page](https://github.com/nodej
 3 warn npm can't make any promises that npm will work with this version.
 4 warn npm Supported releases of Node.js are the latest release of 4, 6, 7, 8, 9.
 ```
-**Install nvm**
+**Install nvm [*](https://github.com/nvm-sh/nvm)**
 ```
 sudo apt-get install curl
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
