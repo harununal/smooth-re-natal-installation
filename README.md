@@ -179,6 +179,8 @@ Open extracted folder and open a terminal in here
 
 **Android Studio must be opened now.**
 
+---
+
 [Set SDK](https://medium.com/@loons.create/2-react-native-tutorial-android-studio-android-sdk-6a630b7ed517)
 
 On `Start a new Android project` page :
@@ -195,6 +197,28 @@ and check this three box
 - Google APIs Intel x86 Atom System Image
 ```
 `Apply`
+
+---
+**Setting HOME_ANDROID**
+
+Open `.bashrc`
+
+Add to end :
+
+```
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+```
+Check :
+
+`echo $ANDROID_HOME`
+
+---
+
+**Emulator**
 
 `Open an existing Android Studio project` => Your project file : `a-camel-case-named-project`
 
