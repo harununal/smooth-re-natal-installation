@@ -123,7 +123,6 @@ but I had some problems on v10 like that in [this page](https://github.com/nodej
 3 warn npm can't make any promises that npm will work with this version.
 4 warn npm Supported releases of Node.js are the latest release of 4, 6, 7, 8, 9.
 ```
----
 
 **Install nvm [*](https://github.com/nvm-sh/nvm)**
 ```
@@ -148,6 +147,7 @@ nvm use v8.17.0
 Verify : `npm --version` => 6.13.4
 `node --version` => v8.17.0
 
+---
 ## [re-natal and react-native](http://anish-patil.blogspot.com/2019/02/how-to-create-react-native-project-with.html)
 ```
 npm install -g react-native-cli
@@ -201,6 +201,7 @@ and check this three box
 `Avd Manager` (a symbol on right-top, like phone screen)
 
 `Create Virtual Drive` => `Nexus5` or anything => `Double-click`
+
 ---
 **Extra Settings for Android Studio :**
 
