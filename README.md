@@ -203,15 +203,24 @@ and check this three box
 `Create Virtual Drive` => `Nexus5` or anything => `Double-click`
 
 ---
-**Extra Settings for Android Studio :**
+### Extra Settings for Android Studio :
 
 [Increase the watches limit](https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit)
 
-fs.inotify.max_user_watches = 524288
-sudo sysctl -p --system
+Create a `x.conf` file in `/etc/sysctl.d/` (I used emacs again)
+
+Add a line in this file : 
+ 
+`fs.inotify.max_user_watches = 524288`
+
+`Save`
+
+`sudo sysctl -p --system`
+
 restart Android Studio
 ---
 
+## Everything is ready, let's cook !
 
 Open first terminal in project folder
 ```
@@ -222,9 +231,10 @@ lein figwheel android
 Open second terminal in project folder
 ```
 react-native run-android
+
 ---
 
-You must have 'Hello Clojure in IOS and Android' screen in emulator.
+**You must have Hello Clojure in IOS and Android screen in emulator.**
 
 Change your project with an editor :
 - Emacs/cider
@@ -234,6 +244,7 @@ Change your project with an editor :
 **Enjoy with Clojurescript !**
 
 ---
+
 #### Sources :
 - [http://anish-patil.blogspot.com/2019/02/how-to-create-react-native-project-with.html](http://anish-patil.blogspot.com/2019/02/how-to-create-react-native-project-with.html)
 - [https://linuxize.com/post/install-java-on-debian-10/](https://linuxize.com/post/install-java-on-debian-10/)
