@@ -7,7 +7,7 @@ OS : Debian 10
 - [Java 8](#java-8)
 - [Leiningen](#leiningen)
 - [nvm](#nvm)
-- [re-natal](#re-natal-and-react-native)
+- [re-natal and react-native](#re-natal-and-react-native)
 - [Android Studio](#android-studio)
 
 
