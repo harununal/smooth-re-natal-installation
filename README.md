@@ -217,22 +217,23 @@ Add a line in this file :
 
 `sudo sysctl -p --system`
 
-restart Android Studio
+**restart Android Studio**
+
 ---
 
 ## Everything is ready, let's cook !
 
 Open first terminal in project folder
+
 ```
 re-natal use-android-device avd
 re-natal use-figwheel
 lein figwheel android
 ```
-Open second terminal in project folder
-```
-react-native run-android
 
----
+Open second terminal in project folder
+
+`react-native run-android`
 
 **You must have Hello Clojure in IOS and Android screen in emulator.**
 
